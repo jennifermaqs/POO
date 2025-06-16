@@ -1,0 +1,9 @@
+package br.ufc.quixada.poo;
+
+public class Carro extends Veiculo {
+
+  public Carro(String identificador) {
+    super(identificador, TipoVaga.CARRO);
+  }
+}
+
